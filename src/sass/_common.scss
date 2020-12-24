@@ -1,0 +1,99 @@
+$accent-text-color: #2196f3;
+$secondary-text-color: #757575;
+$bg-color: #90d6f8;
+$timing-cube: cubic-bezier(0.4, 0, 0.2, 1);
+
+//=============================
+//dark theme vars
+$aside-bar-bg: #212123;
+$about-me-bg: #616063;
+$about-me-lines: #ccb9b1;
+$about-me-text: #ccb9b1;
+$about-me-title: #a0583c;
+//=============================
+
+body {
+  background-color: #f5f7fa;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header-icon {
+  margin-right: 10px;
+
+  fill: $secondary-text-color;
+
+  transition: all 250ms $timing-cube;
+
+  .header-contacts .link:hover &,
+  .header-contacts .link:focus & {
+    fill: $accent-text-color;
+  }
+}
+
+.item > .link {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: $secondary-text-color;
+  transition: color 250ms $timing-cube;
+
+  &:hover,
+  &:focus {
+    color: $accent-text-color;
+  }
+}
+
+.myProgress {
+  width: 200px;
+  background-color: #ddd;
+}
+
+.myBar {
+  width: 0%;
+  height: 10px;
+  background-color: $accent-text-color;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+
+  transition: all 550ms $timing-cube;
+
+  // &.eng {
+  //   width: 80%;
+  // }
+  // &.js {
+  //   width: 80%;
+  // }
+  // &.html {
+  //   width: 95%;
+  // }
+  // &.css {
+  //   width: 95%;
+  // }
+  // &.adobe {
+  //   width: 69%;
+  // }
+  // &.react {
+  //   width: 10%;
+  // }
+}
+
+.my-skills.list {
+  display: flex;
+  flex-wrap: wrap;
+
+  & > .item {
+    margin-bottom: 10px;
+  }
+}

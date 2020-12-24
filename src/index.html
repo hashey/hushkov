@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Alexander Hashkov|Resume</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- main container -->
+    <div class="wrapper">
+      <div class="aside-bar">
+        <div class="mobile-header">
+          <img class="my-photo" src="./images/its-me.jpg" alt="My Photo" />
+
+          <!-- Contacts container -->
+          <div class="contacts-container">
+            <h3 class="contacts-title">Contacts</h3>
+
+            <ul class="header-contacts list">
+              <li class="item">
+                <a href="tel:380971369817" class="con-emails link">
+                  <svg class="header-icon" width="16" height="11">
+                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                  </svg>
+                  +38 097 136 98 17</a
+                >
+              </li>
+              <li class="item">
+                <a href="mailto:hashkov.alx@gmail.com" class="con-emails link">
+                  <svg class="header-icon" width="16" height="11">
+                    <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                  </svg>
+                  hashkov.alx@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Tech Skills Container -->
+        <div class="tech-skills-container">
+          <h3 class="tech-skills-title">Tech Skills</h3>
+          <ul>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">Java Script</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">HTML5</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">CSS3</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">Sass</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">GIT</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">WebPack</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">Node.js</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">Adobe</span>
+            </li>
+            <li class="tech-skills-list">
+              <span class="sidebar-list-text">WPM 60</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Soft Skills Container -->
+        <div class="soft-skills-container">
+          <h3 class="soft-skills-title">Soft Skills</h3>
+          <ul>
+            <li class="soft-skills-list">
+              <span class="sidebar-list-text">Scrum</span>
+            </li>
+            <li class="soft-skills-list">
+              <span class="sidebar-list-text">Agile</span>
+            </li>
+            <li class="soft-skills-list">
+              <span class="sidebar-list-text">GTD</span>
+            </li>
+            <li class="soft-skills-list">
+              <span class="sidebar-list-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- about me container -->
+      <div class="aboutme-container">
+        <div class="toolbar">
+          <!-- Разметка переключателя темы -->
+          <div class="theme-switch">
+            <svg class="theme-switch__icon" role="img" aria-label="Иконка солнца">
+              <use href="./images/sprite.svg#sun"></use>
+            </svg>
+
+            <div class="theme-switch__control">
+              <input
+                class="theme-switch__toggle"
+                type="checkbox"
+                name="theme"
+                id="theme-switch-toggle"
+                aria-label="Переключить между тёмной и светлой темой"
+              />
+              <label
+                aria-hidden="true"
+                class="theme-switch__track"
+                for="theme-switch-toggle"
+              >
+              </label>
+              <div aria-hidden="true" class="theme-switch__marker"></div>
+            </div>
+
+            <svg class="theme-switch__icon" aria-label="Иконка луны">
+              <use href="./images/sprite.svg#moon"></use>
+            </svg>
+          </div>
+        </div>
+        <!-- about me, main info container -->
+        <div class="info-container">
+          <!-- <h2 class="rank">Front-End Developer</h2> -->
+
+          <h1 class="name">Hashkov Alexander</h1>
+          <div class="parallelogram para-name"></div>
+
+          <p class="details">
+            I am Alex, and I am 26y.o. In the childhood I've dreamed to become a
+            programmer, but I haven't studied at tech University, because I've
+            finished NU "OMA" with Navigator Master's Diploma and even was working as
+            Navigation Officer at sea.
+          </p>
+          <p class="details">
+            But anyway, it didn't stop me to learn HTML5, CSS3 and, of course, Java
+            Script. And I couldn't ignore my heart anymore, and the dream from my
+            childhood came back, woke me up and said that I have to switch my
+            profession while I'm still young and finally become a developer.
+          </p>
+          <p class="details">
+            I am trying to explain that I am determined to link my future with an
+            incredible profession which is full of knowledge and information. Where
+            is everybody has to use their minds every hard-working day, this is
+            incredible feelings.
+          </p>
+          <p class="details">
+            Already, I can use HTML5, CSS3, JavaScript, WebPack, GIT, Sass, a little
+            of Node.js and begun to learn React and I will not stop to learn more and
+            more.
+          </p>
+          <p class="details">
+            Unfortunately, at this moment I don't have work experience as developer,
+            only my own knowledge and practice. But I know that I will become a good
+            developer. And I wish to join and work in your good company.
+          </p>
+        </div>
+        <section class="education-margin">
+          <h2 class="aboutme-title">Skills</h2>
+          <div class="parallelogram para-skills"></div>
+          <ul class="my-skills list js-ul">
+            <li class="tech-skills-list item">
+              English
+              <div class="myProgress">
+                <div class="myBar eng" js-progress="80%"></div>
+              </div>
+            </li>
+            <li class="tech-skills-list item">
+              Java Script
+              <div class="myProgress">
+                <div class="myBar js" js-progress="80%"></div>
+              </div>
+            </li>
+            <li class="tech-skills-list item">
+              CSS3
+              <div class="myProgress">
+                <div class="myBar css" js-progress="95%"></div>
+              </div>
+            </li>
+            <li class="tech-skills-list item">
+              HTML5
+              <div class="myProgress">
+                <div class="myBar html" js-progress="95%"></div>
+              </div>
+            </li>
+            <li class="tech-skills-list item">
+              Adobe Suite
+              <div class="myProgress">
+                <div class="myBar adobe" js-progress="69%"></div>
+              </div>
+            </li>
+            <li class="tech-skills-list item">
+              React
+              <div class="myProgress">
+                <div class="myBar react" js-progress="25%"></div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="education-margin">
+          <h3 class="aboutme-title">Education</h3>
+          <div class="parallelogram para-skills"></div>
+          <ul class="list">
+            <li>
+              <h4 class="univer">National University "Odessa Maritime Academy"</h4>
+              <h4 class="univer-grade">Navigation - Master`s diploma</h4>
+              <h4 class="date">
+                September 2017 - June 2019 <span class="divider">|</span> Ukraine
+              </h4>
+            </li>
+            <li>
+              <h4 class="univer">National University "Odessa Maritime Academy"</h4>
+              <h4 class="univer-grade">Navigation - Bachelor`s diploma</h4>
+              <h4 class="date">
+                September 2013 - June 2016 <span class="divider">|</span> Ukraine
+              </h4>
+            </li>
+            <!-- <li>
+              <h4 class="univer">
+                Одесский Автомобильно-Дорожный Колледж Одесского национального
+                Политехнического Университета
+              </h4>
+              <h4 class="univer-grade">
+                Организация грузовых и пассажирских перевозок - Младший специалист
+              </h4>
+              <h4 class="date">
+                Сентябрь 2010 - Июнь 2013 <span class="divider">|</span> Украина
+              </h4>
+            </li> -->
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

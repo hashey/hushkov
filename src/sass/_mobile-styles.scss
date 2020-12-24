@@ -1,0 +1,190 @@
+@media screen and (min-width: 300px) {
+  .name {
+    color: #000000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 71px;
+
+    position: relative;
+    z-index: 100;
+  }
+
+  .aside-bar {
+    position: relative;
+    background-color: #1e2939;
+  }
+
+  .aboutme-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    background-color: #ffffff;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .details {
+    color: #595959;
+
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .my-photo {
+    width: 180px;
+  }
+
+  .con-emails {
+    text-decoration: none;
+    color: #666e79;
+
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .con-emails:hover {
+    color: #2196f3;
+  }
+
+  .contacts-container {
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+  }
+
+  .parallelogram {
+    position: absolute;
+
+    left: -40px;
+    z-index: 1;
+
+    width: 350px;
+    height: 40px;
+    transform: skew(-20deg);
+    background: $accent-text-color;
+
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+
+  .para-name {
+    top: 15px;
+  }
+
+  .para-skills {
+    top: -5px;
+
+    width: 350px;
+    height: 35px;
+  }
+
+  .contacts-title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px 24px;
+  }
+
+  .parallelogram {
+    width: 500px;
+  }
+
+  .para-name {
+    top: 24px;
+  }
+  .aside-bar {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .aboutme-container {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+  }
+
+  .con-emails {
+    font-size: 14px;
+
+    line-height: 24px;
+  }
+
+  .wrapper {
+    background-color: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+  }
+
+  .my-photo {
+    width: 300px;
+  }
+
+  .contacts-container {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+
+  .contacts-title {
+    font-size: 22px;
+
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .details {
+    width: 600px;
+  }
+
+  .name {
+    font-size: 40px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .mobile-header {
+    display: flex;
+  }
+
+  .tech-skills-container,
+  .soft-skills-container {
+    display: none;
+  }
+
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  .header-icon {
+    width: 10px;
+    margin-right: 2px;
+  }
+}
